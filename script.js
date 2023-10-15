@@ -43,8 +43,10 @@ function startListening(){
 }
 
 function colorChange(e){
-    e.target.style.background = 'black'
-    
+    let r = Math.random()*255
+    let g = Math.random()*255
+    let b = Math.random()*255
+    e.target.style.background = 'rgb(' + r + ', '+ g + ', ' + b + ')'
 }
 
 
